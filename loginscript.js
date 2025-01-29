@@ -19,6 +19,12 @@ loginButton.addEventListener("click", (e) => {
     else if (username === "marvs" && password === "00622") {
         window.open("main.html", "_self");
     }
+    else if (username === "DPS" && password === "00051") {
+        window.open("main.html", "_self");
+    }
+    else if (username === "Val" && password === "00060") {
+        window.open("main.html", "_self");
+    }
     else {
         loginErrorMsg.style.opacity = 1;
     }
